@@ -1,0 +1,50 @@
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+header {
+	background: linear-gradient(LightBlue,White);
+	
+	padding: 20px 0px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	
+}
+.caixa img{
+	width: 250px;
+	display:inline-block;
+	
+}
+.navegacao {
+	position: absolute;
+	top: 60px;
+	right: 0px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 20px;
+	
+	
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	
+}
+
+nav a:hover{
+	color: #FF0000;
+	text-decoration: underline;
+}

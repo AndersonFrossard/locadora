@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<!--	Fotos editadas em:
+		https://www.photocollage.com 
+		https://www4.lunapic.com/editor/
+!-->
+
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Netsplit! - Serviços</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="header.css">
+		<link rel="stylesheet" type="text/css" href="footer.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+		<div class="caixa">
+			<h1><img src="img/old_cinema_ticket02_transparent.png"></h1>
+			<nav class="navegacao">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul> 
+			</nav>
+		</div>
+		</header>
+		<main>
+			<form>
+				<label for="nomeesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomeesobrenome" class="input-padrao" required>
+				
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail(at)dominio.com">
+				
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" placeholder="(xx) XXXX XXXX">
+				
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+				
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" id="radio-email" name="contato" value="email">Email</label>
+					
+					<label for="radio-telefone"><input type="radio" id="radio-telefone" name="contato" value="telefone">Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" name="contato" value="whatsapp" checked>Whatsapp</label>
+				</fieldset>
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+				<label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+				
+				<input type="submit" value="Enviar Formulário" class="enviar">
+			</form>
+			
+		</main>
+		<footer>
+			<img src="img/old_cinema_ticket02_transparent.png" width=270>
+			<p class="copyright">&copy;opyright Frossard Exercício HTML CSS 2020</p>
+		</footer>
+	</body>
+
+
+</html>
